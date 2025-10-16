@@ -2,20 +2,28 @@
 __pycache__/
 *.pyc
 ECHO is on.
+
 # Virtual env
 venv/
 ECHO is on.
+
 # Jupyter notebook checkpoints
 **/.ipynb_checkpoints
 ECHO is on.
+
 # Large data files
 data/raw/
 *.zip
 ECHO is on.
+
 # OS files
 Thumbs.db
 .DS_Store
 ECHO is on.
+
 # IDE
 .vscode/
 .idea/
+
+# Office temp files
+~$*
