@@ -51,31 +51,31 @@ group-project/
 
 -------------------------------------------------------------------------------------
 
-## Setup & Installation
+Setup & Installation
 
-### 1. Clone the repository
+1. Clone the repository
 ```bash
 git clone https://github.com/JPretz/AI574-2025-FALL-Project
 cd group-project
 
-### 2. Create and activate virtual environment
-# Windows
+2. Create and activate virtual environment
+ Windows
 python -m venv venv
 venv\Scripts\activate
 
-# macOS/Linux
+ macOS/Linux
 python -m venv venv
 source venv/bin/activate
 
-### 3. Install dependencies
+3. Install dependencies
 pip install -r requirements.txt
 
 -------------------------------------------------------------------------------------
-## Running the Pipeline
-### 1. Logistic Regression (TF-IDF + LR)
+ Running the Pipeline
+ 1. Logistic Regression (TF-IDF + LR)
 python scripts/run_lr_pipeline.py
 
-### 2. FinBERT Predictions (sample)
+ 2. FinBERT Predictions (sample)
 from src.finbert import run_finbert
 
 sample_texts = [
@@ -87,34 +87,33 @@ predictions = run_finbert(sample_texts)
 print(predictions)
 
 -----------------------------------------------------------------------------------
-## Example Outputs
-### TF-IDF + Logistic Regression:
+ Example Outputs
+ TF-IDF + Logistic Regression:
 Accuracy: 73.2%
 F1-scores:
   Negative: 0.606
   Neutral: 0.822
   Positive: 0.573
 
-### FinBERT (sample predictions):
+ FinBERT (sample predictions):
 "The company reported record profits this quarter." --> Positive
 "Market volatility continues to concern investors." --> Neutral
 
 ------------------------------------------------------------------------------------
-## Evaluation Metrics
-### Accuracy
+ Evaluation Metrics
+ Accuracy
 
-### . Precision / Recall / F1-score
+ . Precision / Recall / F1-score
 
-### . ROC-AUC (multi-class)
+ . ROC-AUC (multi-class)
 
-### . Confusion Matrix
+. Confusion Matrix
 
-### . Misclassification analysis
+. Misclassification analysis
 
-### . Sample predictions for interpretability
+. Sample predictions for interpretability
 -------------------------------------------------------------------------------------
-## References:
-References
+ References:
 
 Araci, Dogu. FinBERT: Financial Sentiment Analysis with Pre-Trained Language Models. 2019.
 
