@@ -127,4 +127,5 @@ Full reference list in docs/Project Final.pdf
 MIT License
 
 Copyright (c) 2025 John Pretz & Manas Sahoo
+Datasources/dataset used for this projects:(https://www.kaggle.com/datasets/ankurzing/sentiment-analysis-for-financial-news)
 
