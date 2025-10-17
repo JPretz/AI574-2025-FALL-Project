@@ -36,7 +36,7 @@ Financial texts—such as news articles, social media posts, and earnings calls�
 
 ## Folder Structure
 
-```text
+
 group-project/
 │
 ├── data/               # Raw and processed datasets
