@@ -36,8 +36,7 @@ Financial texts—such as news articles, social media posts, and earnings calls�
 
 ## Folder Structure
 
-
-group-project/
+**group-project/
 │
 ├── data/               # Raw and processed datasets
 ├── docs/               # Project proposal, related work, slides
@@ -47,11 +46,11 @@ group-project/
 ├── presentations/      # Presentations
 ├── venv/               # Virtual environment (ignored in Git)
 ├── requirements.txt    # Python dependencies
-└── README.md           # This file
+└── README.md           # This file**
 
 -------------------------------------------------------------------------------------
 
-Setup & Installation
+## Setup & Installation
 
 1. Clone the repository
 ```bash
