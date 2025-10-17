@@ -36,7 +36,7 @@ Financial texts—such as news articles, social media posts, and earnings calls�
 
 ## Folder Structure
 
-**group-project/
+##group-project/
 │
 ├── data/               # Raw and processed datasets
 ├── docs/               # Project proposal, related work, slides
@@ -46,13 +46,13 @@ Financial texts—such as news articles, social media posts, and earnings calls�
 ├── presentations/      # Presentations
 ├── venv/               # Virtual environment (ignored in Git)
 ├── requirements.txt    # Python dependencies
-└── README.md           # This file**
+└── README.md           # This file##
 
 -------------------------------------------------------------------------------------
 
 ## Setup & Installation
 
-1. Clone the repository
+**1. Clone the repository**
 ```bash
 git clone https://github.com/JPretz/AI574-2025-FALL-Project
 cd group-project
