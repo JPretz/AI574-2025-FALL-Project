@@ -36,7 +36,8 @@ Financial texts—such as news articles, social media posts, and earnings calls�
 
 ## Folder Structure
 
-##group-project/
+```text
+group-project/
 │
 ├── data/               # Raw and processed datasets
 ├── docs/               # Project proposal, related work, slides
@@ -46,9 +47,9 @@ Financial texts—such as news articles, social media posts, and earnings calls�
 ├── presentations/      # Presentations
 ├── venv/               # Virtual environment (ignored in Git)
 ├── requirements.txt    # Python dependencies
-└── README.md           # This file##
+└── README.md           # This file
 
--------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 
 ## Setup & Installation
 
@@ -69,7 +70,7 @@ source venv/bin/activate
 3. Install dependencies
 pip install -r requirements.txt
 
--------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
  Running the Pipeline
  1. Logistic Regression (TF-IDF + LR)
 python -m scripts.run_lr_pipeline
@@ -86,7 +87,7 @@ sample_texts = [
 predictions = run_finbert(sample_texts)
 print(predictions)
 
------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
  Example Outputs
  TF-IDF + Logistic Regression:
 Accuracy: 73.2%
@@ -99,7 +100,7 @@ F1-scores:
 "The company reported record profits this quarter." --> Positive
 "Market volatility continues to concern investors." --> Neutral
 
-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
  Evaluation Metrics
  Accuracy
 
@@ -112,7 +113,7 @@ F1-scores:
 . Misclassification analysis
 
 . Sample predictions for interpretability
--------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
  References:
 
 Araci, Dogu. FinBERT: Financial Sentiment Analysis with Pre-Trained Language Models. 2019.
@@ -122,7 +123,7 @@ Ahmed, Wesam et al. Sentiment Analysis on Twitter Using Machine Learning Techniq
 Cheng Yu et al. A Deep Learning Framework Integrating CNN and BiLSTM for Financial Systemic Risk Analysis. 2025.
 
 Full reference list in docs/Project Final.pdf
------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 MIT License
 
 Copyright (c) 2025 John Pretz & Manas Sahoo
