@@ -73,7 +73,8 @@ pip install -r requirements.txt
 -------------------------------------------------------------------------------------
  Running the Pipeline
  1. Logistic Regression (TF-IDF + LR)
-python scripts/run_lr_pipeline.py
+python -m scripts.run_lr_pipeline
+
 
  2. FinBERT Predictions (sample)
 from src.finbert import run_finbert
